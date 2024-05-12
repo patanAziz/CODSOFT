@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+   
+    
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 36px;
+    margin-top: 17px;
+    font-family: fantasy;
+    font-size:larger;
+    color: brown;
+}
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 4s ease-in;
+}
+.img img{
+    width: 350px;
+    mix-blend-mode: multiply;
+}
+.home{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+.btn{
+    display: block;
+}
+.about-product{
+    width: 50vw;
+    margin-top: 140px;
+}
+.about-product h3{
+    color: brown;
+}
+.about-product input{
+    margin-top: 20px;
+    padding: 9px;
+    background-color: #d35142;
+    border-radius: 13px;
+    border: none;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 45px;
+    background-color: darkturquoise;
+}
+.f2 img{
+    width: 29px;
+}
+.price{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+.price img{
+    width: 200px;
+    mix-blend-mode: multiply;
+}
+.box{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.cost input{
+    padding: 8px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: cadetblue;
+}
+.cost h3{
+    text-decoration: line-through;
+    color: black;
+}
+.color1{
+    background-color: #32516a;
+}
+.color2{
+    background-color: rgb(218, 96, 44);
+}
+.color3{
+    background-color: brown;
+}
+footer{
+    background-color: #111010f7;
+}
+footer li img{
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:622px){
+    .home{
+       flex-direction: column-reverse;
+       align-items: center;
+       margin-top: 27px;
+    }
+    .about-product{
+        margin-top: 10px;
+        width: 90vw;
+    }
+    .img img{
+        width: 250px;
+    }
+    .price{
+        flex-direction: column-reverse;
+    }
+    .box{
+        display: flex;
+        align-items: center;
+    }
+    .color2{
+        margin-left: 17%;
+    }
+    footer li img{
+        width: 30px;
+    }
+}
